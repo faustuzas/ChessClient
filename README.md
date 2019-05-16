@@ -1,9 +1,11 @@
 # ChessClient
 
+University project for Programming with C++
+
 ## Game modes
 * Single 1v1 with friend
-* Direct game with friend throught UDP connection
-* Connect to matchmaking [server](https://github.com/faustuzas/ChessServer)
+* Direct game (P2P) with friend (UDP)
+* Connect to matchmaking [server](https://github.com/faustuzas/ChessServer) (TCP) 
 
 
 ## Dependencies
@@ -11,4 +13,4 @@
 * SDL2_image
 * SDL2_net
 
-You can find makefile for Mac in the repo.
+Provided makefile is for Mac
